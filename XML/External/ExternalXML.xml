@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE bookstore SYSTEM "ExternalXML.dtd">
+<bookstore>
+	<book>
+		<id>1</id>
+		<name>A</name>
+		<author>Kamlesh</author>
+	</book>
+</bookstore>

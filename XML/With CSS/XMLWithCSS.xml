@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/css" href="XMLWithCSS.css"?>
+<!DOCTYPE employees [
+	<!ELEMENT employees (employee+)>
+	<!ELEMENT employee (id, name)>
+	<!ELEMENT id (#PCDATA)>
+	<!ELEMENT name (#PCDATA)>
+]>
+<employees>
+	<employee>
+		<id>1</id>
+		<name>A</name>
+	</employee>
+	<employee>
+		<id>2</id>
+		<name>B</name>
+	</employee>
+	<employee>
+		<id>3</id>
+		<name>C</name>
+	</employee>
+	<employee>
+		<id>4</id>
+		<name>D</name>
+	</employee>
+</employees>
